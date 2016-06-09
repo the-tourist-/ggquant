@@ -1,0 +1,14 @@
+Package: ggquant
+Title: Financial and Quantitative extentions for ggplot
+Version: 0.1.0
+Authors@R: person("Smith", "Graeme", email = "graeme@uncl-al.com", role = c("aut", "cre"))
+Description:  This extends ggplot to add financial geoms and stats analogeous to those in the quantmod package
+Depends: R (>= 3.3.0)
+License: GPL-3
+LazyData: true
+Imports:
+  ggplot2 (>= 2.1.0)
+  dplyr (>= 0.4.3)
+  TTR (>= 0.23-1)
+Suggests:
+  quantmod (>= 0.4-5)
